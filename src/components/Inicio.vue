@@ -15,7 +15,7 @@ export default {
     },
     created:function(){
         let self = this
-        axios.get("https://prueba-sprin3-back.herokuapp.com/")
+        axios.get("https://prueba-sprin3-back.herokuapp.com/test/")
             .then((result) =>{
                 self.mensaje = result.data
             })
