@@ -28,7 +28,6 @@ export default {
         nombre: nombre_hotel ,
         };
         axios.post("https://prueba-sprin3-back.herokuapp.com/hotel/verification/",post)
-        //axios.post("http://127.0.0.1:8000/hotel/verification/",post)
             .then((result) =>{
                 self.mensaje = result.data
             })

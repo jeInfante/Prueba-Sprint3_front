@@ -78,7 +78,6 @@ export default {
                 precioMinSuite: precioMinSuite_Hotel,
             };
             axios.post("https://prueba-sprin3-back.herokuapp.com/hotel/create/",post)
-            //axios.post("http://127.0.0.1:8000/hotel/create/",post)
                 .then((result) =>{
                     self.mensaje = result.data
                 })
